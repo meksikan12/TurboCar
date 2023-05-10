@@ -1,0 +1,338 @@
+body{
+    margin: 0;
+    color: white;
+    /* background-color: #000000; */
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#header{
+    background: url(../img/image.png)  center no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-height: 962px;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    text-align: center;
+}
+.nav{display: flex; margin-left: 350px;     margin-top: 16px;}
+.nav ul{
+    display: flex;
+    color: rgb(255, 255, 255);
+
+}
+.nav ul li{
+    padding: 0 30px;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    text-align: left;
+}
+.nav ul a{
+    color: white;
+    text-decoration: none;
+   
+}
+.nav ul a:hover{
+    position: relative;
+    background: #FFFFFF59;
+    transition: all .3s;
+}
+.navbar img{
+    max-width: 100%;
+    height: 100%;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.link{
+    margin-left: 200px;
+}
+.link i{
+    color: white;
+    padding: 0 15px;
+}
+.promo-text{
+    margin-top: 360px;
+}
+.promo-text h5{
+    font-family: Nunito Sans;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+.promo-text h1{
+    font-family: Oswald;
+    font-size: 122px;
+    font-weight: 600;
+    line-height: 181px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 68px;
+}
+.promo-text a{
+    border: 2px solid white;
+    height: 72px;
+    width: 250px;
+    padding: 26px 60px 26px 60px;
+    color: white;
+    text-decoration: none;
+
+}
+.promo-text a:hover{
+    background: #F6452D;
+    transition: all .5s;
+}
+.peshka{
+    font-family: Nunito Sans;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+}
+.peshka2{
+    font-family: Nunito Sans;
+    font-weight: 400;
+    color: #7D7D7D;
+    font-size: 17px;
+}
+.always{
+    font-family: Oswald;
+    color: #1F1F1F;
+    text-transform: uppercase;
+    font-size: 58px;
+
+}
+.down-text{
+    padding-top: 80px;
+    padding-bottom: 143px;
+}
+.btn{
+    height: 72px;
+    width: 250px;
+    padding: 26px 60px 26px 60px;
+    color: white;
+    background-color: #F6452D;
+    text-decoration: none;  
+    
+}
+.down-text{
+    border-bottom: 2px solid #E4E4E4;
+}
+
+.text h1{
+    color: #1F1F1F;
+}
+.text p{
+    color: #7D7D7D;
+}
+.text{
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+.text .title{
+    font-family: Oswald;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 41px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+#body{
+    background: url(../img/pexels.png) center no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-height: 1034px;
+    background-color: #000000;
+}
+.gallery_text {
+    margin-top: 140px;
+}
+.gallery_text p{
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.3em;
+    text-align: left;
+    color: #F6452D;
+    text-transform: uppercase;
+}
+.gallery_text h1{
+    font-family: Oswald;
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-transform: uppercase;
+}
+.gallery_nav{
+    margin-top: 200px;
+    text-align: right;
+}
+.gallery_nav img{
+    padding-right: 35px;
+}
+.nav_opacity{
+    opacity: 50%;
+}
+.gallery_img{
+    display: flex;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+.gallery_img img{
+    margin-right: 20px;
+    text-align: center;
+    margin:  auto;
+}
+.gallery_btn{
+    margin-top: 86px;
+    text-align: center;
+}
+.gallery_btn a{
+    height: 72px;
+    width: 250px;
+    padding: 26px 60px 26px 60px;
+    color: white;
+    background-color: #F6452D;
+    text-decoration: none;
+}
+.price{
+    margin-top: 140px;
+}
+.price p{
+    color: #F6452D;
+    text-transform: uppercase;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.3em;
+    text-align: left;
+
+}
+.price h1{
+    color: #000000;
+    text-transform: uppercase;
+    font-family: Oswald;
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+.tab-panel ul li{
+    padding: 0 15px;
+}
+.tab-panel ul li a{
+    height: 36px;
+    width: 138px;
+    padding: 8px 30px 8px 30px;
+    max-width: 100%; color: rgb(0, 0, 0);
+    text-align: center;
+    border:1px solid #ddd;
+    min-width: 182px;
+}
+.nav-tabs{
+    border-bottom: none;
+}
+.tab-panel ul li a:hover{
+    background: #F6452D;
+    color: white;
+    border-radius: 4px;
+}
+
+.card-list{
+    margin-top: 48px; display: flex;
+}
+.card{
+    height: 594px;
+    width: 340px;
+    padding: 60px 0px 60px 0px;
+    justify-content: space-between;
+    border: 1px solid #E4E4E4;
+    text-align: center;
+	height: 100%;
+    margin-right: 20px;
+}
+.card h4{
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.3em;
+    text-align: center;
+    color: #F6452D;
+    text-transform: uppercase;
+}
+.card h1{
+    font-family: Oswald;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #171717;
+
+}
+.card ul{
+    margin-top: 30px;
+}
+.card ul li{
+    color: #7D7D7D;
+    font-family: Nunito Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    list-style: none;
+    padding-right: 60px;
+    margin-top: 8px;
+}
+.card ul li span{
+    color: #F6452D;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+}
+.card-btn a{
+    height: 52px;
+    width: 181px;
+    padding: 16px 32px 16px 32px;
+    background: #F6452D;
+    color: white;
+    text-decoration: none;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
